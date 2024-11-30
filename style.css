@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+}
+.navbar {
+   
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+ .navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li {
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+} 
+.image{
+    background-image: url("https://marketplace.canva.com/EAE-rfspHQM/1/0/1600w/canva-blue-and-purple-cyberpunk-game-zone-desktop-background-QUVVB5lzUWo.jpg");
+    
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.home{
+    padding: 200px;
+
+}
+
+#wel{
+    font-weight: 100;
+    color: whitesmoke;
+}
+#wel2{
+    font-weight: 100;
+    color: aliceblue;
+}
+.button{
+    background-color: purple;
+    color: white;
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .cards {
+    width: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(28, 26, 22);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.Book-title
+{
+    color: azure;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+#btn3{
+    background-color: green;
+    color: white;
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+#btn4{
+    background-color: green;
+    color: white;
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 8px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
